@@ -4,6 +4,7 @@ public class ClassesAndMethods {
 
   public static void main(String[] args) {
     // Rufe die Methode createPerson auf, und weise den Rückgabewert der Variable p1 zu.
+    //ich bin ein neuer Kommentar
     Person p1 = createPerson();
     System.out.println(p1);
 
@@ -38,7 +39,7 @@ public class ClassesAndMethods {
     Person p1 = new Person();
     p1.alter = 18;
     p1.vorname = vorname;
-    p1.nachname = "Claude";
+    p1.nachname = "Vandamme";
     return p1;
   }
 
